@@ -1,0 +1,496 @@
+/* line 12, ../scss/style.scss */
+.row {
+  margin-bottom: 0;
+}
+
+/* line 16, ../scss/style.scss */
+.container {
+  max-width: 1200px;
+  width: 100%;
+}
+
+/* line 21, ../scss/style.scss */
+.google-play-btn {
+  position: relative;
+  height: 47px;
+  margin: 10px 0;
+}
+/* line 25, ../scss/style.scss */
+.google-play-btn:before {
+  content: '';
+  width: 137px;
+  height: 47px;
+  position: absolute;
+  background: url("../img/spt.png") no-repeat;
+  background-position: -10px -592px;
+  width: 137px;
+  height: 47px;
+}
+
+/* line 34, ../scss/style.scss */
+.app-store-btn {
+  position: relative;
+  height: 47px;
+  margin: 10px 0;
+}
+/* line 38, ../scss/style.scss */
+.app-store-btn:before {
+  content: '';
+  width: 137px;
+  height: 47px;
+  position: absolute;
+  background: url("../img/spt.png") no-repeat;
+  background-position: -178px -538px;
+  width: 137px;
+  height: 47px;
+}
+
+/* line 48, ../scss/style.scss */
+input:focus {
+  border-bottom: 2px solid #336e08 !important;
+}
+
+/* line 52, ../scss/style.scss */
+label {
+  font-size: 14px;
+  font-family: Roboto Light;
+}
+
+/* line 57, ../scss/style.scss */
+.active {
+  color: #336e08 !important;
+  font-size: 17px !important;
+}
+
+/* line 62, ../scss/style.scss */
+body {
+  background: url(../img/main-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* line 63, ../scss/style.scss */
+body .logo-small {
+  position: relative;
+  height: 45px;
+}
+/* line 66, ../scss/style.scss */
+body .logo-small::before {
+  content: '';
+  position: absolute;
+  width: 71px;
+  height: 45px;
+  background: url("../img/spt.png") no-repeat;
+  background-position: -220px -393px;
+  width: 71px;
+  height: 45px;
+}
+/* line 75, ../scss/style.scss */
+body .main-title-small, body .motto-small {
+  text-transform: uppercase;
+  font-family: Arial Narrow;
+  font-size: 17px;
+  color: #fff;
+  margin: 0;
+  font-weight: bolder;
+}
+/* line 83, ../scss/style.scss */
+body .motto-small {
+  font-size: 11px;
+}
+/* line 89, ../scss/style.scss */
+body .user-menu-container {
+  background: rgba(0, 0, 0, 0.7);
+}
+/* line 92, ../scss/style.scss */
+body .user-menu-container .container .pre-form {
+  padding: 0;
+}
+/* line 94, ../scss/style.scss */
+body .user-menu-container .container .pre-form .user-menu-form {
+  background: #fff;
+  padding: 20px;
+}
+/* line 97, ../scss/style.scss */
+body .user-menu-container .container .pre-form .user-menu-form .sing-in-caption {
+  text-transform: uppercase;
+  margin: 0;
+  padding-left: .75rem;
+  font-size: 24px;
+  font-family: Roboto Regular;
+  color: #336e08;
+}
+/* line 105, ../scss/style.scss */
+body .user-menu-container .container .pre-form .user-menu-form .user-name {
+  text-transform: none !important;
+  text-decoration: underline;
+  margin-left: 20px;
+}
+/* line 113, ../scss/style.scss */
+body .user-menu-container .container .pre-form .user-menu-form .user-menu li a {
+  font-size: 14px;
+  font-family: Roboto Light;
+  color: #5b5b5b;
+  padding: 13px 11px;
+  display: block;
+}
+/* line 119, ../scss/style.scss */
+body .user-menu-container .container .pre-form .user-menu-form .user-menu li a:hover {
+  background: #e6e6e6;
+}
+/* line 126, ../scss/style.scss */
+body .user-menu-container .container .pre-form .user-menu-form .btn {
+  background-color: #336e08;
+  font-size: 14px;
+  text-transform: inherit;
+  font-family: Roboto Regular;
+  padding: 0 1.2rem;
+  position: relative;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+/* line 136, ../scss/style.scss */
+body .user-menu-container .container .pre-form .user-menu-form .btn span {
+  text-transform: uppercase;
+}
+/* line 139, ../scss/style.scss */
+body .user-menu-container .container .pre-form .user-menu-form .btn:before {
+  position: absolute;
+  right: 7px;
+}
+/* line 144, ../scss/style.scss */
+body .user-menu-container .container .pre-form .user-menu-form .sing-social-caption, body .user-menu-container .container .pre-form .user-menu-form .user-name {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-family: Roboto Regular;
+  color: #336e08;
+}
+/* line 150, ../scss/style.scss */
+body .user-menu-container .container .pre-form .user-menu-form .btn-fb {
+  background-color: #3b5998;
+  padding: 0 30px 0 9px;
+}
+/* line 154, ../scss/style.scss */
+body .user-menu-container .container .pre-form .user-menu-form .btn-vk {
+  background-color: #4c75a3;
+  padding: 0 30px 0 9px;
+}
+/* line 160, ../scss/style.scss */
+body .user-menu-container .container .logo {
+  position: relative;
+  height: 194px;
+  margin: 8% 0;
+}
+/* line 164, ../scss/style.scss */
+body .user-menu-container .container .logo:before {
+  content: '';
+  width: 304px;
+  height: 194px;
+  background: url("../img/spt.png") no-repeat;
+  background-position: -10px -108px;
+  width: 304px;
+  height: 194px;
+  position: absolute;
+}
+/* line 173, ../scss/style.scss */
+body .user-menu-container .container .applications {
+  margin: 6% 0;
+}
+/* line 176, ../scss/style.scss */
+body .user-menu-container .container .applications .main-title {
+  text-transform: uppercase;
+  font-family: Arial Narrow;
+  font-size: 60px;
+  color: #fff;
+  margin: 0;
+  font-weight: bolder;
+  position: relative;
+}
+/* line 184, ../scss/style.scss */
+body .user-menu-container .container .applications .main-title:before {
+  content: '';
+  width: 84px;
+  height: 71px;
+  position: absolute;
+  right: 41px;
+  top: -45px;
+  background: url("../img/spt.png") no-repeat;
+  background-position: -220px -312px;
+  width: 84px;
+  height: 71px;
+}
+/* line 195, ../scss/style.scss */
+body .user-menu-container .container .applications .motto {
+  text-transform: uppercase;
+  font-family: Arial Narrow;
+  font-size: 17px;
+  font-weight: bolder;
+  color: #fff;
+  margin: 0;
+}
+/* line 206, ../scss/style.scss */
+body .white-bg {
+  background: #fff;
+  color: #474747;
+  font-family: Roboto Light;
+  padding-top: 10px;
+}
+/* line 211, ../scss/style.scss */
+body .white-bg .message-box {
+  margin: 15% 0;
+  max-width: 324px;
+  width: 100%;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  border-radius: 14px;
+}
+/* line 219, ../scss/style.scss */
+body .white-bg .text-caption {
+  font-size: 30px;
+  color: #336e08;
+}
+/* line 223, ../scss/style.scss */
+body .white-bg .text-body {
+  font-size: 18px;
+}
+/* line 226, ../scss/style.scss */
+body .white-bg .description {
+  padding-left: 25px;
+}
+/* line 229, ../scss/style.scss */
+body .white-bg .search-label {
+  text-transform: uppercase;
+  margin: 27px 0 0 0;
+  font-size: 30px;
+  font-family: Roboto Light;
+  color: #336e08;
+}
+/* line 236, ../scss/style.scss */
+body .white-bg .search-field {
+  padding: 0;
+}
+/* line 239, ../scss/style.scss */
+body .white-bg .sort-title {
+  float: left;
+  margin: 0;
+}
+/* line 243, ../scss/style.scss */
+body .white-bg .sorting-menu {
+  overflow: inherit;
+  margin-bottom: 20px;
+}
+/* line 247, ../scss/style.scss */
+body .white-bg .sorting-menu .tab a {
+  font-size: 14px;
+  font-family: Roboto Light;
+  text-transform: lowercase !important;
+  color: #5b5b5b;
+}
+/* line 253, ../scss/style.scss */
+body .white-bg .sorting-menu .tab .active {
+  font-size: 14px !important;
+  border-right: 2px solid #336e08;
+}
+/* line 258, ../scss/style.scss */
+body .white-bg .sorting-menu .indicator {
+  background: #336e08;
+}
+/* line 262, ../scss/style.scss */
+body .white-bg .event-box {
+  position: relative;
+  overflow: hidden;
+}
+/* line 267, ../scss/style.scss */
+body .white-bg .event-box .status-bar-up, body .white-bg .event-box .status-bar-down {
+  position: absolute;
+  left: 23px;
+  color: #fff;
+  font-size: 14px;
+  font-family: Roboto Regular;
+  background: rgba(0, 0, 0, 0.3);
+  width: 100%;
+}
+/* line 276, ../scss/style.scss */
+body .white-bg .event-box .status-bar-up {
+  top: 0;
+}
+/* line 279, ../scss/style.scss */
+body .white-bg .event-box .status-bar-down {
+  bottom: 6px;
+}
+/* line 284, ../scss/style.scss */
+body footer {
+  background: #252525;
+  padding: 25px;
+}
+/* line 287, ../scss/style.scss */
+body footer a {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: Roboto Light;
+  padding: 28px 0;
+}
+/* line 294, ../scss/style.scss */
+body footer .logo-bu {
+  padding: 15px;
+  margin: 20px 0;
+  position: relative;
+}
+/* line 298, ../scss/style.scss */
+body footer .logo-bu:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 158px;
+  height: 44px;
+  background: url("../img/spt.png") no-repeat;
+  background-position: -10px -538px;
+  width: 158px;
+  height: 44px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 400px) {
+  /* line 314, ../scss/style.scss */
+  .user-menu-container .logo {
+    padding: 1px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 992px) {
+  /* line 321, ../scss/style.scss */
+  .logo-bu-box {
+    margin-top: 20px;
+  }
+}
+@media screen and (min-width: 601px) {
+  /* line 327, ../scss/style.scss */
+  .user-menu-container {
+    margin-top: 45px;
+  }
+}
+/* line 332, ../scss/style.scss */
+.effect {
+  position: relative;
+}
+
+/* line 336, ../scss/style.scss */
+.eff {
+  overflow: hidden;
+}
+/* line 338, ../scss/style.scss */
+.eff .caption {
+  position: absolute;
+  top: -5px;
+  left: 23px;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  opacity: 0;
+  -o-transition: all 0.5s linear 0s;
+  -webkit-transition: all 0.5s linear 0s;
+  -moz-transition: all 0.5s linear 0s;
+  -o-transition: all 0.5s linear 0s;
+  transition: all 0.5s linear 0s;
+}
+/* line 352, ../scss/style.scss */
+.eff .caption h4 {
+  font-size: 36px;
+  font-family: Roboto Light;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 20px;
+  margin-top: 100px;
+  position: relative;
+  left: 300px;
+  opacity: 0;
+  -o-transition: all 0.3s linear 0s;
+  -webkit-transition: all 0.3s linear 0s;
+  -moz-transition: all 0.3s linear 0s;
+  -o-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+}
+/* line 368, ../scss/style.scss */
+.eff .caption p {
+  text-align: center;
+  padding: 0px 10px;
+  text-align: left;
+  opacity: 0;
+  -o-transition: all 0.3s linear 0s;
+  -webkit-transition: all 0.3s linear 0s;
+  -moz-transition: all 0.3s linear 0s;
+  -o-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+}
+/* line 378, ../scss/style.scss */
+.eff .caption p:nth-child(3) {
+  font-family: Roboto Regular;
+  font-size: 14px;
+  margin: 50px 0 10px 0;
+}
+/* line 383, ../scss/style.scss */
+.eff .caption p:nth-child(4) {
+  font-family: Roboto Light;
+  font-size: 12px;
+  margin: 0;
+}
+/* line 389, ../scss/style.scss */
+.eff .caption .view-more-btn, .eff .caption .add-btn {
+  width: 120px;
+  text-align: center;
+  display: block;
+  padding: 20px 0px;
+  margin: 170px auto 0 auto;
+  position: relative;
+  opacity: 0;
+  left: -300px;
+  -o-transition: all 0.3s linear 0s;
+  -webkit-transition: all 0.3s linear 0s;
+  -moz-transition: all 0.3s linear 0s;
+  -o-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+}
+/* line 403, ../scss/style.scss */
+.eff .caption .view-more-btn::before, .eff .caption .add-btn::before {
+  content: '';
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  background: url("../img/spt.png") no-repeat;
+  background-position: -157px -595px;
+  width: 64px;
+  height: 64px;
+}
+/* line 413, ../scss/style.scss */
+.eff .caption .add-btn::before {
+  content: '';
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  background: url("../img/spt.png") no-repeat;
+  background-position: -220px -448px;
+  width: 64px;
+  height: 64px;
+}
+/* line 423, ../scss/style.scss */
+.eff:hover h4, .eff:hover .view-more-btn, .eff:hover .add-btn {
+  left: 0px;
+  opacity: 1;
+}
+/* line 427, ../scss/style.scss */
+.eff:hover .caption, .eff:hover p {
+  opacity: 1;
+}
+/* line 431, ../scss/style.scss */
+.eff:hover .status-bar-down {
+  opacity: 0;
+}
+/* line 434, ../scss/style.scss */
+.eff:hover .status-bar-up {
+  background: transparent;
+}
+
+/* line 439, ../scss/style.scss */
+iframe {
+  margin: 30px;
+}
